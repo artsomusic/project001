@@ -87,12 +87,12 @@ margin: 0
 
     .footer{
         background-color: #1F2937;
-        padding: 0px;
-        display: flex;
         width: 100%;
         align-self: center;
-        color: white;
-        bottom: 0
+    }
+
+    .footer2{
+        text-align: center;
     }
 
     .title {
@@ -115,7 +115,7 @@ margin: 0
     .container{
         display: flex;
         justify-content: center;
-        gap: 52px;
+        gap: 80px;
     }
 
 
@@ -224,5 +224,9 @@ margin: 0
         max-width: 150px;
         border-radius: 25px;
         border: 3px solid white;
-
+    }
+    
+    .flop{
+        border-radius: 20px;
+        border: 3px solid #3882F6;
     }
